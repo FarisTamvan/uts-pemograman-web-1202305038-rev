@@ -10,7 +10,7 @@ if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
-// Mulai session agar bisa dipakai di semua halaman
+// Mulai session
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
