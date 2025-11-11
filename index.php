@@ -20,7 +20,7 @@ $result = $conn->query("SELECT * FROM alat ORDER BY id DESC");
 <body>
 <div class="container mt-5">
   <div class="d-flex justify-content-between align-items-center mb-4">
-    <h2>📏 Data Kalibrasi Alat</h2>
+    <h2>📏 Data Kalibrasi Alat</h2> <!--ganti nama -->
     <div>
       <span class="me-3">👤 <?= htmlspecialchars($_SESSION['name'] ?? $_SESSION['login_user']); ?></span>
       <a href="logout.php" class="btn btn-danger btn-sm">Logout</a>
