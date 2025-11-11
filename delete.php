@@ -4,7 +4,7 @@ if (!isset($_SESSION['login_user'])) {
     header("Location: login.php");
     exit;
 }
-
+//id tersedia
 if (!isset($_GET['id'])) {
     header("Location: index.php");
     exit;
